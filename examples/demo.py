@@ -46,28 +46,34 @@ def main():
     os.makedirs(outputs_dir)
 
     convert_font(
-        font_file_name='quan/quan.ttf',
-        outputs_name='quan',
+        font_file_name='fusion-pixel/fusion-pixel-8px-monospaced.woff2',
+        outputs_name='fusion-pixel-8px-monospaced',
         font_size=8,
     )
     convert_font(
-        font_file_name='fusion-pixel-monospaced/fusion-pixel-monospaced.otf',
-        outputs_name='fusion-pixel-monospaced',
-        font_size=12,
+        font_file_name='fusion-pixel/fusion-pixel-8px-proportional.woff2',
+        outputs_name='fusion-pixel-8px-proportional',
+        font_size=8,
     )
     convert_font(
-        font_file_name='fusion-pixel-proportional/fusion-pixel-proportional.otf',
-        outputs_name='fusion-pixel-proportional',
-        font_size=12,
-    )
-    convert_font(
-        font_file_name='galmuri/Galmuri9.ttf',
-        outputs_name='galmuri9',
+        font_file_name='fusion-pixel/fusion-pixel-10px-monospaced.woff2',
+        outputs_name='fusion-pixel-10px-monospaced',
         font_size=10,
     )
     convert_font(
-        font_file_name='galmuri/Galmuri9.bdf',
-        outputs_name='galmuri9-bdf',
+        font_file_name='fusion-pixel/fusion-pixel-10px-proportional.woff2',
+        outputs_name='fusion-pixel-10px-proportional',
+        font_size=10,
+    )
+    convert_font(
+        font_file_name='fusion-pixel/fusion-pixel-12px-monospaced.woff2',
+        outputs_name='fusion-pixel-12px-monospaced',
+        font_size=12,
+    )
+    convert_font(
+        font_file_name='fusion-pixel/fusion-pixel-12px-proportional.woff2',
+        outputs_name='fusion-pixel-12px-proportional',
+        font_size=12,
     )
     convert_font(
         font_file_name='unifont/unifont-15.0.01.ttf',
